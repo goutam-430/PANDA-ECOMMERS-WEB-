@@ -10,13 +10,11 @@
 .navbar {
     border-radius: 10px;
 }
-
 /* serch bar  design*/
 .form-control {
     border-radius: 50PX;
     width: 400px;
 }
-
 /* serch logo positioning  */
 .search-logo {
     margin-top: 9px;
@@ -32,17 +30,14 @@
     background-color: #feeae9;
     border-radius: 10px;
 }
-
 /* carusel div content alignment  */
 .carousel-item {
     padding: 20px 40px;
 }
-
 /* priceing coller  */
 .price {
     color: #FF136F;
 }
-
 /* button design  */
 .btn-deg {
     padding: 5px 26px 5px 11px;
@@ -51,7 +46,6 @@
     border-radius: 5px;
     margin-top: 16px;
 }
-
 /* button logo  */
 .fa-long-arrow-right {
     margin-left: 6px;
@@ -60,12 +54,15 @@
 }
 
 
+
 /* catagories section  */
 /* all catagories desine  */
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
+/* catagories color design  */
 .cat1{
     background-image: linear-gradient( 90deg, #FFB12B 0%, #FFCE1A 100%);
 }
@@ -73,7 +70,17 @@
     background-image: linear-gradient( 90deg, #FF5297 0%, #FF1873 100%);
 }
 .cat3{
-    background-image: linear-gradient( 90deg, #417FFE 0%, #3F07F8 100%);
+    background-image: linear-gradient( 90deg, #3f7fff 0%, #3F07F8 100%);
+}
+/* catagories hover design  */
+.cat1:hover{
+    box-shadow: 0 0 1px 1px #faa81b;
+}
+.cat2:hover{
+    box-shadow: 0 0 1px 1px #fd2a7f;
+}
+.cat3:hover{
+    box-shadow: 0 0 1px 1px #1c65f6;
 }
 /* only catagories h1 coloer  */
 .catagories h1{
@@ -82,4 +89,32 @@
 /* only catagories img width set  */
 .catagories img{
     width: 100px;
+}
+
+
+
+/* card one decaration  */
+/* card (see alll) button decoration  */
+.see-all-btn{
+    border: none;
+    background-color: transparent;
+    color: #FF9D00;
+}
+/* card item alignment  */
+.item p,h4,h5{
+   text-align: center;
+   cursor: pointer;
+}
+/* card  one all button decaration  */
+.btn-dec2{
+    margin-left: 110px;
+    padding: 3px 27px 3px 8px;
+    margin-bottom: 31px;
+    border-radius: 5px;
+}
+/* button hover decoration  */
+.btn-dec2:hover{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
 }
