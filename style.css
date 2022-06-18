@@ -1,8 +1,13 @@
 /* boddy  */
 .container {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
+
+.carousel-control-prev {
+    left: -71px;
+    top: -35px;
+}
 
 
 /* nav bar section  */
@@ -34,6 +39,12 @@
 .carousel-item {
     padding: 20px 40px;
 }
+/* button logo  */
+.fa-long-arrow-right {
+    margin-left: 6px;
+    margin-top: 6px;
+    position: absolute;
+}
 /* priceing coller  */
 .price {
     color: #FF136F;
@@ -46,17 +57,19 @@
     border-radius: 5px;
     margin-top: 16px;
 }
-/* button logo  */
-.fa-long-arrow-right {
-    margin-left: 6px;
-    margin-top: 6px;
-    position: absolute;
+/* for banner section hover */
+.btn-deg:hover{
+    box-shadow: 0 0 1px 1px #f91b70;
 }
 
 
 
 /* catagories section  */
-/* all catagories desine  */
+/* for  link under line remove */
+.text-deco-catagories a:link {
+    text-decoration: none;
+}
+  /* all catagories desine  */
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
@@ -93,6 +106,12 @@
 
 
 
+/* shoes-bages decoration  */
+.shoes-bages{
+    padding-bottom: 1px;
+    background-color: #f8f9fa;
+}
+/* shoes  */
 /* card one decaration  */
 /* card (see alll) button decoration  */
 .see-all-btn{
@@ -109,7 +128,7 @@
 .btn-dec2{
     margin-left: 110px;
     padding: 3px 27px 3px 8px;
-    margin-bottom: 31px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 /* button hover decoration  */
@@ -118,3 +137,4 @@
     color: white;
     border-radius: 0px;
 }
+
