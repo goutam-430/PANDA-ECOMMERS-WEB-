@@ -3,7 +3,7 @@
     margin-bottom: 50px;
 }
 
-
+/* carousel next prevue contron positioning */
 .carousel-control-prev {
     left: -71px;
     top: -35px;
@@ -138,3 +138,44 @@
     border-radius: 0px;
 }
 
+
+/* footer  */
+/* footer section  */
+.footer{
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 56px;
+    justify-items: center;
+    background-color: #FEEAE9;
+}
+/* .footer h3,p,form{
+   text-align: center;
+} */
+.footer p{
+    color: #707070;
+    padding-bottom: 20px;
+}
+/* footer mail-box design   */
+.charch-ber {
+    border-radius: 8px 8px 8px 8px;
+    width: 340px;
+    padding: 8px 6px;
+    border: 2px solid #707070;
+    height: 43px;
+    color: #CCCCCC;
+}
+/* footer submit button  */
+.btn-deg2 {
+    height: 39px;
+    padding: 0px 15px;
+    margin-top: 2px;
+    margin-left: -84px;
+    border: 1px solid #FF2E81;
+    background-image: linear-gradient( 90deg, #FF5196 0%, #FF1F77 100%);
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+}
+/* fitter mail send button hover  */
+.btn-deg2:hover{
+    box-shadow: 0 0 2px 2px #FF2E81;
+}
